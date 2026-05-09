@@ -182,7 +182,7 @@ figure {
   padding: 10px 16px;
   border-radius: 12px;
   font-size: 0.92rem;
-  font-weight: 800;
+  font-weight: 600;
   transition:
     transform 180ms ease,
     background-color 180ms ease,
@@ -381,7 +381,7 @@ figure {
   padding: 8px 12px;
   color: var(--text-primary);
   font-size: 0.88rem;
-  font-weight: 800;
+  font-weight: 600;
   border: 1px solid var(--border);
   border-radius: 10px;
   transition:
@@ -436,7 +436,7 @@ figure {
   padding: 8px 12px;
   color: var(--text-secondary);
   font-size: 0.92rem;
-  font-weight: 700;
+  font-weight: 500;
   border: 1px solid var(--border);
   border-radius: 10px;
   transition:
@@ -466,7 +466,7 @@ figure {
   gap: 7px;
   color: #d1d5db;
   font-size: 0.86rem;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .contact-form input,
