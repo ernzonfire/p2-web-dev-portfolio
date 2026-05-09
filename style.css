@@ -337,8 +337,8 @@ figure {
 
 .project-image {
   width: 100%;
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
   background: #0d0d0f;
   border-bottom: 1px solid var(--border);
 }
