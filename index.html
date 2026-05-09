@@ -221,30 +221,63 @@
               projects. You can reach me through email or connect with me on my
               developer and professional profiles.
             </p>
+            <div class="contact-links">
+              <a href="mailto:ejdemaluan@gmail.com">ejdemaluan@gmail.com</a>
+              <a
+                href="https://github.com/ernzonfire"
+                target="_blank"
+                rel="noreferrer"
+                >GitHub</a
+              >
+              <a
+                href="https://gitlab.com/ejdemaluan"
+                target="_blank"
+                rel="noreferrer"
+                >GitLab</a
+              >
+              <a
+                href="https://www.linkedin.com/in/ernie-demaluan-b98673191/"
+                target="_blank"
+                rel="noreferrer"
+                >LinkedIn</a
+              >
+            </div>
           </div>
-          <div class="contact-links">
-            <a href="mailto:erniejr.demaluan@example.com"
-              >ejdemaluan@gmail.com</a
-            >
-            <a
-              href="https://github.com/ernzonfire"
-              target="_blank"
-              rel="noreferrer"
-              >GitHub</a
-            >
-            <a
-              href="https://gitlab.com/ejdemaluan"
-              target="_blank"
-              rel="noreferrer"
-              >GitLab</a
-            >
-            <a
-              href="https://www.linkedin.com/in/ernie-demaluan-b98673191/"
-              target="_blank"
-              rel="noreferrer"
-              >LinkedIn</a
-            >
-          </div>
+          <form
+            class="contact-form"
+            name="portfolio-contact"
+            method="POST"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+          >
+            <input type="hidden" name="form-name" value="portfolio-contact" />
+            <input
+              type="hidden"
+              name="subject"
+              value="Portfolio inquiry from %{formName}"
+            />
+            <p class="form-honeypot">
+              <label>
+                Leave this field blank
+                <input name="bot-field" />
+              </label>
+            </p>
+            <label>
+              Name
+              <input type="text" name="name" autocomplete="name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" autocomplete="email" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+            <button class="button primary-button" type="submit">
+              Send Message
+            </button>
+          </form>
         </div>
       </section>
     </main>
