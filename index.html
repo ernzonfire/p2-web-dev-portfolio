@@ -5,25 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta
       name="description"
-      content="Portfolio of Ernie Jr Demaluan, a full-stack web developer in the Philippines building useful and accessible digital products."
->
-    <meta name="theme-color" content="#090b10">
+      content="Ernie Demaluan Jr. is a full-stack developer in Cebu building practical products for the web and iOS."
+    >
+    <meta name="theme-color" content="#fafaf8">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Ernie Jr Demaluan | Full-Stack Web Developer">
+    <meta property="og:title" content="Ernie Demaluan Jr. — Full-Stack Developer">
     <meta
       property="og:description"
-      content="Selected web projects, technical skills, and contact details for Ernie Jr Demaluan."
->
+      content="Selected product work, technical capabilities, and contact details for Ernie Demaluan Jr."
+    >
     <meta property="og:url" content="https://p2-web-dev-portfolio.vercel.app/">
-    <title>Ernie Jr Demaluan | Full-Stack Web Developer</title>
+    <title>Ernie Demaluan Jr. — Full-Stack Developer</title>
     <link rel="canonical" href="https://p2-web-dev-portfolio.vercel.app/">
     <link rel="icon" type="image/svg+xml" href="logo.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700&display=swap"
       rel="stylesheet"
->
+    >
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -31,421 +31,335 @@
 
     <header class="site-header">
       <nav class="navbar site-container" aria-label="Primary navigation">
-        <a class="brand" href="#home" aria-label="Ernie Jr Demaluan, home">
-          <img src="logo.svg" alt="" width="36" height="36">
-          <span>Ernie Jr Demaluan</span>
+        <a class="brand" href="#home" aria-label="Ernie Demaluan Jr., home">
+          <span class="brand-mark" aria-hidden="true">ED</span>
+          <span>Ernie Demaluan Jr.</span>
         </a>
 
         <div class="nav-links">
+          <a href="#work">Work</a>
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </div>
+
+        <a
+          class="nav-resume"
+          href="assets/resume/ErnieDemaluan_FullStackDeveloper_2026.pdf"
+          target="_blank"
+          rel="noopener"
+        >
+          Résumé <span aria-hidden="true">↗</span>
+        </a>
       </nav>
     </header>
 
     <main id="main-content">
       <section class="hero site-container" id="home">
         <div class="hero-copy">
-          <p class="eyebrow"><span></span> Full-stack web developer</p>
-          <h1>I turn practical ideas into <em>useful digital products.</em></h1>
-          <p class="hero-intro">
-            Hi, I’m <strong>Ernie Jr Demaluan</strong>. I build responsive web
-            applications with thoughtful interfaces, dependable APIs, and a
-            sharp eye for visual detail.
+          <p class="eyebrow">Full-stack developer · Cebu, Philippines</p>
+          <h1>Useful software,<br>built with care.</h1>
+          <p class="hero-lead">
+            I’m <strong>Ernie Demaluan Jr.</strong> I design and build practical
+            products across web and iOS—from responsive interfaces to APIs,
+            databases, and production deployment.
           </p>
 
           <div class="hero-actions">
-            <a class="button button-primary" href="#projects">Explore my work</a>
-            <a
-              class="button button-secondary"
-              href="assets/resume/ErnieDemaluan_FullStackDeveloper_2026.pdf"
-              download
-            >
-              Download résumé
-            </a>
+            <a class="button button-dark" href="#work">See my work</a>
+            <a class="text-link" href="mailto:ejdemaluan@gmail.com">Start a conversation <span aria-hidden="true">↗</span></a>
           </div>
 
-          <dl class="hero-stats">
-            <div>
-              <dt>05</dt>
-              <dd>Completed projects</dd>
-            </div>
-            <div>
-              <dt>12+</dt>
-              <dd>Technologies used</dd>
-            </div>
-            <div>
-              <dt>PH</dt>
-              <dd>Based in the Philippines</dd>
-            </div>
-          </dl>
+          <p class="availability"><span aria-hidden="true"></span> Open to frontend and full-stack opportunities</p>
         </div>
 
-        <div class="portrait-wrap">
-          <div class="portrait-halo" aria-hidden="true"></div>
+        <div class="hero-portrait">
           <img
-            class="portrait"
             src="assets/images/profile.png"
-            alt="Ernie Jr Demaluan wearing a white shirt"
+            alt="Portrait of Ernie Demaluan Jr."
             width="913"
             height="1625"
->
-          <p class="portrait-note"><span aria-hidden="true">●</span> Available for opportunities</p>
-        </div>
-      </section>
-
-      <section class="section section-bordered" id="about">
-        <div class="site-container section-grid">
-          <div class="section-heading">
-            <p class="eyebrow"><span></span> About me</p>
-            <h2>Creative instincts.<br>Developer mindset.</h2>
-          </div>
-
-          <div class="about-copy">
-            <p class="about-lead">
-              I’m a web developer who enjoys solving real problems through
-              clear, usable, and well-crafted experiences.
-            </p>
-            <div class="about-columns">
-              <p>
-                My work spans responsive frontends, REST APIs, authentication,
-                databases, and deployment. I care about the complete journey—from
-                understanding the problem to shipping a product people can use.
-              </p>
-              <p>
-                Before focusing on development, I worked in creative production.
-                That background shaped how I approach hierarchy, storytelling,
-                visual polish, and the small details that make an interface feel
-                intentional.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section site-container" id="skills">
-        <div class="section-topline">
-          <div class="section-heading">
-            <p class="eyebrow"><span></span> Skills &amp; tools</p>
-            <h2>What I build with.</h2>
-          </div>
-          <a
-            class="text-link"
-            href="assets/resume/ErnieDemaluan_FullStackDeveloper_2026.pdf"
-            target="_blank"
-            rel="noopener"
           >
-            View full résumé <span aria-hidden="true">↗</span>
-          </a>
-        </div>
-
-        <div class="skills-layout">
-          <article class="skill-group">
-            <p class="skill-index">01 / Frontend</p>
-            <div class="skill-list">
-              <div class="skill-item">
-                <img src="assets/icons/html5.svg" alt="HTML5 logo" width="28" height="28">
-                <span>HTML5</span>
-              </div>
-              <div class="skill-item">
-                <img src="assets/icons/css.svg" alt="CSS logo" width="28" height="28">
-                <span>CSS3</span>
-              </div>
-              <div class="skill-item">
-                <img src="assets/icons/javascript.svg" alt="JavaScript logo" width="28" height="28">
-                <span>JavaScript</span>
-              </div>
-              <div class="skill-item">
-                <img src="assets/icons/react.svg" alt="React logo" width="28" height="28">
-                <span>React</span>
-              </div>
-              <div class="skill-item">
-                <img src="assets/icons/vite.svg" alt="Vite logo" width="28" height="28">
-                <span>Vite</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="skill-group">
-            <p class="skill-index">02 / Backend</p>
-            <div class="skill-list">
-              <div class="skill-item">
-                <img src="assets/icons/nodejs.svg" alt="Node.js logo" width="28" height="28">
-                <span>Node.js</span>
-              </div>
-              <div class="skill-item">
-                <img src="assets/icons/express.svg" alt="Express logo" width="28" height="28">
-                <span>Express</span>
-              </div>
-              <div class="skill-item">
-                <img src="assets/icons/mongodb.svg" alt="MongoDB logo" width="28" height="28">
-                <span>MongoDB</span>
-              </div>
-              <div class="skill-item">
-                <img src="assets/icons/postman.svg" alt="Postman logo" width="28" height="28">
-                <span>REST APIs</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="skill-group">
-            <p class="skill-index">03 / Workflow</p>
-            <div class="skill-list">
-              <div class="skill-item">
-                <img src="assets/icons/git.svg" alt="Git logo" width="28" height="28">
-                <span>Git</span>
-              </div>
-              <div class="skill-item">
-                <img src="assets/icons/github.svg" alt="GitHub logo" width="28" height="28">
-                <span>GitHub</span>
-              </div>
-              <div class="skill-item">
-                <img src="assets/icons/vercel.svg" alt="Vercel logo" width="28" height="28">
-                <span>Vercel</span>
-              </div>
-            </div>
-          </article>
         </div>
       </section>
 
-      <section class="section projects-section" id="projects">
+      <section class="capability-bar" aria-label="Core capabilities">
+        <div class="site-container capability-list">
+          <span>Product UI</span>
+          <span>React &amp; Next.js</span>
+          <span>Node.js APIs</span>
+          <span>Supabase &amp; MongoDB</span>
+          <span>SwiftUI</span>
+        </div>
+      </section>
+
+      <section class="section work-section" id="work">
         <div class="site-container">
-          <div class="section-topline">
-            <div class="section-heading">
-              <p class="eyebrow"><span></span> Selected projects</p>
-              <h2>Work that made it to the web.</h2>
+          <header class="section-intro">
+            <p class="eyebrow">Selected work</p>
+            <div>
+              <h2>Products built around real needs.</h2>
+              <p>
+                A selection of independent, internal, and course projects showing
+                how I approach product thinking, interface work, and implementation.
+              </p>
             </div>
-            <p class="section-note">Five completed builds, from frontend foundations to full-stack applications.</p>
+          </header>
+
+          <div class="featured-work">
+            <article class="featured-project">
+              <a
+                class="project-visual ern-visual"
+                href="https://app-ernie.vercel.app/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Open the live ERN Finance application"
+              >
+                <img
+                  src="assets/images/ern-finance.png"
+                  alt="ERN Finance mobile dashboard showing safe-to-spend, balances, card dues, and upcoming cash flow"
+                  width="1080"
+                  height="1920"
+                >
+              </a>
+              <div class="project-copy">
+                <p class="project-number">01 / Personal finance</p>
+                <h3>ERN Finance</h3>
+                <p class="project-summary">
+                  A privacy-first finance tracker that turns balances, bills,
+                  planned income, and savings into one clear safe-to-spend number.
+                </p>
+                <ul class="project-points">
+                  <li>Offline-first data, backups, and installable PWA support</li>
+                  <li>Cash-flow planning, account tracking, bills, and goals</li>
+                  <li>Responsive web experience with an iOS wrapper</li>
+                </ul>
+                <p class="project-stack">React · TypeScript · IndexedDB · Capacitor</p>
+                <div class="project-actions">
+                  <a href="https://app-ernie.vercel.app/" target="_blank" rel="noopener">View live product <span aria-hidden="true">↗</span></a>
+                  <span>Private codebase</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="featured-project featured-project-reverse">
+              <div class="project-copy">
+                <p class="project-number">02 / Employee platform</p>
+                <h3>NEXT</h3>
+                <p class="project-summary">
+                  An internal engagement platform that brings company updates,
+                  events, attendance, rewards, surveys, and employee support into one place.
+                </p>
+                <ul class="project-points">
+                  <li>Role-based employee and administrator experiences</li>
+                  <li>QR attendance, points, rewards, and real-time updates</li>
+                  <li>Reporting, notifications, media, and operational tools</li>
+                </ul>
+                <p class="project-stack">Next.js · TypeScript · Supabase · Web Push</p>
+                <div class="project-actions">
+                  <a href="https://rcx-next.vercel.app" target="_blank" rel="noopener">View live product <span aria-hidden="true">↗</span></a>
+                  <span>Private codebase</span>
+                </div>
+              </div>
+              <a
+                class="project-visual next-visual"
+                href="https://rcx-next.vercel.app"
+                target="_blank"
+                rel="noopener"
+                aria-label="Open the live NEXT employee platform"
+              >
+                <img
+                  src="assets/images/next-platform.png"
+                  alt="NEXT mobile home screen showing employee points, rewards, events, surveys, and quick access tools"
+                  width="780"
+                  height="1688"
+                  loading="lazy"
+                >
+              </a>
+            </article>
+
+            <article class="featured-project">
+              <div class="project-visual salpakan-visual">
+                <img
+                  src="assets/images/salpakan-game.png"
+                  alt="Salpakan iPad match with hidden opponent ranks, timed turns, and Game of the Generals board"
+                  width="2064"
+                  height="2752"
+                  loading="lazy"
+                >
+              </div>
+              <div class="project-copy">
+                <p class="project-number">03 / Native iOS game</p>
+                <h3>Salpakan</h3>
+                <p class="project-summary">
+                  A native Game of the Generals experience for iPhone and iPad,
+                  built for solo play, online matchmaking, and nearby games.
+                </p>
+                <ul class="project-points">
+                  <li>Multiple AI levels, saved games, timers, and game review</li>
+                  <li>Public, private-room, and peer-to-peer multiplayer modes</li>
+                  <li>Hidden-information gameplay with ratings and leaderboards</li>
+                </ul>
+                <p class="project-stack">SwiftUI · Supabase · Realtime · Multipeer Connectivity</p>
+                <div class="project-actions">
+                  <span>Private build · Release in progress</span>
+                </div>
+              </div>
+            </article>
           </div>
 
-          <div class="projects-grid">
-            <article class="project-card project-featured">
-              <a
-                class="project-visual"
-                href="https://kusina-mate-p5.vercel.app/"
-                target="_blank"
-                rel="noopener"
-                aria-label="Open the live KusinaMate full-stack application"
-              >
-                <img
-                  src="assets/images/kusinamate-p5.png"
-                  alt="KusinaMate full-stack application showing Filipino recipes and filters"
-                  width="1200"
-                  height="1521"
->
-                <span class="project-number">01</span>
+          <div class="more-work-heading">
+            <h3>Additional web projects</h3>
+            <p>Course and independent builds with working deployments.</p>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <a class="card-image" href="https://kusina-mate-p5.vercel.app/" target="_blank" rel="noopener" aria-label="Open the live KusinaMate full-stack application">
+                <img src="assets/images/kusinamate-p5.png" alt="KusinaMate full-stack recipe and meal-planning application" width="1200" height="1521" loading="lazy">
               </a>
-              <div class="project-content">
-                <div class="project-title-row">
-                  <div>
-                    <p class="project-kicker">P5 · Full-stack</p>
-                    <h3>KusinaMate</h3>
-                  </div>
-                  <span class="project-status">Live</span>
-                </div>
-                <p>
-                  A Filipino recipe and meal-planning platform with accounts,
-                  favorites, grocery lists, a REST API, and persistent data.
-                </p>
-                <ul class="tech-tags" aria-label="Technologies used">
-                  <li>React</li><li>Node.js</li><li>Express</li><li>MongoDB</li>
-                </ul>
-                <div class="project-links">
-                  <a href="https://kusina-mate-p5.vercel.app/" target="_blank" rel="noopener">Live site <span aria-hidden="true">↗</span></a>
-                  <a href="https://github.com/ernzonfire/kusina-mate-p5" target="_blank" rel="noopener">Source code <span aria-hidden="true">↗</span></a>
+              <div class="card-body">
+                <p class="project-number">Full-stack web application</p>
+                <h3>KusinaMate</h3>
+                <p>A Filipino recipe and meal planner with accounts, favorites, grocery lists, and persistent user data.</p>
+                <p class="project-stack">React · Node.js · Express · MongoDB</p>
+                <div class="project-actions">
+                  <a href="https://kusina-mate-p5.vercel.app/" target="_blank" rel="noopener">Live site ↗</a>
+                  <a href="https://github.com/ernzonfire/kusina-mate-p5" target="_blank" rel="noopener">Source ↗</a>
                 </div>
               </div>
             </article>
 
             <article class="project-card">
-              <a
-                class="project-visual"
-                href="https://explainit-ai-app.vercel.app/"
-                target="_blank"
-                rel="noopener"
-                aria-label="Open the live ExplainIt AI application"
-              >
-                <img
-                  src="assets/images/explainit-ai.png"
-                  alt="ExplainIt AI application with its topic explanation interface"
-                  width="1920"
-                  height="1080"
-                  loading="lazy"
->
-                <span class="project-number">02</span>
+              <a class="card-image" href="https://explainit-ai-app.vercel.app/" target="_blank" rel="noopener" aria-label="Open the live ExplainIt application">
+                <img src="assets/images/explainit-ai.png" alt="ExplainIt learning interface for structured beginner-friendly explanations" width="1920" height="1080" loading="lazy">
               </a>
-              <div class="project-content">
-                <div class="project-title-row">
-                  <div>
-                    <p class="project-kicker">P3 · API application</p>
-                    <h3>ExplainIt AI</h3>
-                  </div>
-                  <span class="project-status">Live</span>
-                </div>
-                <p>
-                  A focused AI learning tool that turns complex questions into
-                  clear, beginner-friendly explanations and examples.
-                </p>
-                <ul class="tech-tags" aria-label="Technologies used">
-                  <li>JavaScript</li><li>REST API</li><li>AI</li>
-                </ul>
-                <div class="project-links">
-                  <a href="https://explainit-ai-app.vercel.app/" target="_blank" rel="noopener">Live site <span aria-hidden="true">↗</span></a>
-                  <a href="https://github.com/ernzonfire/xplainIt-Ai" target="_blank" rel="noopener">Source code <span aria-hidden="true">↗</span></a>
+              <div class="card-body">
+                <p class="project-number">API-powered learning tool</p>
+                <h3>ExplainIt</h3>
+                <p>A focused learning interface that turns difficult questions into clear, structured explanations.</p>
+                <p class="project-stack">JavaScript · REST API · Responsive UI</p>
+                <div class="project-actions">
+                  <a href="https://explainit-ai-app.vercel.app/" target="_blank" rel="noopener">Live site ↗</a>
+                  <span>Private codebase</span>
                 </div>
               </div>
             </article>
 
             <article class="project-card">
-              <a
-                class="project-visual project-visual-logo"
-                href="https://kusina-mate.vercel.app/"
-                target="_blank"
-                rel="noopener"
-                aria-label="Open the live KusinaMate React application"
-              >
-                <img
-                  src="assets/images/kusinamate-logo.png"
-                  alt="KusinaMate recipe calendar logo"
-                  width="488"
-                  height="514"
-                  loading="lazy"
->
-                <span class="project-number">03</span>
+              <a class="card-image logo-image" href="https://kusina-mate.vercel.app/" target="_blank" rel="noopener" aria-label="Open the live KusinaMate React application">
+                <img src="assets/images/kusinamate-logo.png" alt="KusinaMate recipe calendar logo" width="488" height="514" loading="lazy">
               </a>
-              <div class="project-content">
-                <div class="project-title-row">
-                  <div>
-                    <p class="project-kicker">P4 · React application</p>
-                    <h3>KusinaMate React</h3>
-                  </div>
-                  <span class="project-status">Live</span>
-                </div>
-                <p>
-                  A responsive client-side meal planner for discovering
-                  affordable Filipino dishes and organizing a weekly menu.
-                </p>
-                <ul class="tech-tags" aria-label="Technologies used">
-                  <li>React</li><li>Vite</li><li>CSS</li>
-                </ul>
-                <div class="project-links">
-                  <a href="https://kusina-mate.vercel.app/" target="_blank" rel="noopener">Live site <span aria-hidden="true">↗</span></a>
-                  <a href="https://github.com/ernzonfire/kusina-mate" target="_blank" rel="noopener">Source code <span aria-hidden="true">↗</span></a>
+              <div class="card-body">
+                <p class="project-number">React application</p>
+                <h3>KusinaMate React</h3>
+                <p>A client-side meal planner for discovering affordable Filipino dishes and organizing weekly menus.</p>
+                <p class="project-stack">React · Vite · Local Storage</p>
+                <div class="project-actions">
+                  <a href="https://kusina-mate.vercel.app/" target="_blank" rel="noopener">Live site ↗</a>
+                  <a href="https://github.com/ernzonfire/kusina-mate" target="_blank" rel="noopener">Source ↗</a>
                 </div>
               </div>
             </article>
 
             <article class="project-card">
-              <a
-                class="project-visual project-visual-logo project-visual-purple"
-                href="https://laag-ta.vercel.app/"
-                target="_blank"
-                rel="noopener"
-                aria-label="Open the live Laag Ta travel planner"
-              >
-                <img
-                  src="assets/images/laag-ta.png"
-                  alt="Laag Ta layered purple app logo"
-                  width="340"
-                  height="360"
-                  loading="lazy"
->
-                <span class="project-number">04</span>
+              <a class="card-image logo-image laag-image" href="https://laag-ta.vercel.app/" target="_blank" rel="noopener" aria-label="Open the live Laag Ta travel planner">
+                <img src="assets/images/laag-ta.png" alt="Laag Ta layered purple travel application logo" width="340" height="360" loading="lazy">
               </a>
-              <div class="project-content">
-                <div class="project-title-row">
-                  <div>
-                    <p class="project-kicker">Travel planner</p>
-                    <h3>Laag Ta</h3>
-                  </div>
-                  <span class="project-status">Live</span>
-                </div>
-                <p>
-                  A trip-planning companion for organizing itineraries,
-                  destinations, daily activities, and travel details in one place.
-                </p>
-                <ul class="tech-tags" aria-label="Technologies used">
-                  <li>React</li><li>TypeScript</li><li>Responsive UI</li>
-                </ul>
-                <div class="project-links">
-                  <a href="https://laag-ta.vercel.app/" target="_blank" rel="noopener">Live site <span aria-hidden="true">↗</span></a>
-                  <a href="https://github.com/ernzonfire/laag-ta" target="_blank" rel="noopener">Source code <span aria-hidden="true">↗</span></a>
-                </div>
-              </div>
-            </article>
-
-            <article class="project-card">
-              <a
-                class="project-visual project-visual-logo project-visual-cyan"
-                href="./"
-                target="_blank"
-                rel="noopener"
-                aria-label="Open this live web development portfolio"
-              >
-                <img src="logo.svg" alt="Ernie Jr Demaluan portfolio logo" width="220" height="220" loading="lazy">
-                <span class="project-number">05</span>
-              </a>
-              <div class="project-content">
-                <div class="project-title-row">
-                  <div>
-                    <p class="project-kicker">P2 · Portfolio</p>
-                    <h3>Web Dev Portfolio</h3>
-                  </div>
-                  <span class="project-status">Live</span>
-                </div>
-                <p>
-                  This accessible, responsive portfolio—designed and built to
-                  tell my story and present my growing body of work.
-                </p>
-                <ul class="tech-tags" aria-label="Technologies used">
-                  <li>HTML5</li><li>CSS3</li><li>Accessibility</li>
-                </ul>
-                <div class="project-links">
-                  <a href="./" target="_blank" rel="noopener">Live site <span aria-hidden="true">↗</span></a>
-                  <a href="https://github.com/ernzonfire/p2-web-dev-portfolio" target="_blank" rel="noopener">Source code <span aria-hidden="true">↗</span></a>
+              <div class="card-body">
+                <p class="project-number">Travel planning product</p>
+                <h3>Laag Ta</h3>
+                <p>A travel companion for organizing destinations, daily activities, and trip details across devices.</p>
+                <p class="project-stack">React · TypeScript · Responsive UI</p>
+                <div class="project-actions">
+                  <a href="https://laag-ta.vercel.app/" target="_blank" rel="noopener">Live site ↗</a>
+                  <span>Private codebase</span>
                 </div>
               </div>
             </article>
           </div>
 
           <aside class="coming-soon" aria-labelledby="paynear-title">
-            <div class="coming-soon-mark">
-              <img src="assets/images/paynear-emblem.svg" alt="PayNear app emblem" width="120" height="120" loading="lazy">
-            </div>
+            <img src="assets/images/paynear-emblem.svg" alt="PayNear application emblem" width="64" height="64" loading="lazy">
             <div>
-              <p class="project-kicker">P6 · Currently in development</p>
+              <p class="project-number">Team project · In development</p>
               <h3 id="paynear-title">PayNear</h3>
-              <p>
-                A location-based full-stack app for finding nearby establishments
-                by the payment methods they accept. Full case study coming soon.
-              </p>
+              <p>A location-based app for finding nearby establishments by the payment methods they accept.</p>
             </div>
-            <span class="coming-soon-label">Up next</span>
+            <span class="coming-soon-label">Case study coming soon</span>
           </aside>
         </div>
       </section>
 
-      <section class="section contact-section" id="contact">
+      <section class="section about-section" id="about">
+        <div class="site-container about-grid">
+          <div>
+            <p class="eyebrow">About</p>
+            <h2>I care about the system and the screen.</h2>
+          </div>
+          <div class="about-copy">
+            <p class="about-lead">
+              I like taking an everyday problem, understanding the full user flow,
+              and shipping a product that makes the next step obvious.
+            </p>
+            <div class="about-columns">
+              <p>
+                My work covers responsive interfaces, application state, APIs,
+                authentication, databases, deployment, and native iOS development.
+                I’m comfortable moving between product details and implementation.
+              </p>
+              <p>
+                A background in creative production taught me to communicate clearly,
+                work through feedback, and notice what makes an interface feel finished.
+                I bring that same discipline to code and collaboration.
+              </p>
+            </div>
+            <a class="text-link" href="assets/resume/ErnieDemaluan_FullStackDeveloper_2026.pdf" target="_blank" rel="noopener">Read my résumé <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="skills">
+        <div class="site-container">
+          <header class="skills-heading">
+            <p class="eyebrow">Technical toolkit</p>
+            <h2>Tools I use to ship.</h2>
+          </header>
+
+          <div class="tools-grid">
+            <div class="tool-item"><img src="assets/icons/html5.svg" alt="HTML5 logo" width="28" height="28"><span>HTML5</span></div>
+            <div class="tool-item"><img src="assets/icons/css.svg" alt="CSS3 logo" width="28" height="28"><span>CSS3</span></div>
+            <div class="tool-item"><img src="assets/icons/javascript.svg" alt="JavaScript logo" width="28" height="28"><span>JavaScript</span></div>
+            <div class="tool-item"><img src="assets/icons/react.svg" alt="React logo" width="28" height="28"><span>React</span></div>
+            <div class="tool-item"><img src="assets/icons/vite.svg" alt="Vite logo" width="28" height="28"><span>Vite</span></div>
+            <div class="tool-item"><img src="assets/icons/nodejs.svg" alt="Node.js logo" width="28" height="28"><span>Node.js</span></div>
+            <div class="tool-item"><img src="assets/icons/express.svg" alt="Express logo" width="28" height="28"><span>Express</span></div>
+            <div class="tool-item"><img src="assets/icons/mongodb.svg" alt="MongoDB logo" width="28" height="28"><span>MongoDB</span></div>
+            <div class="tool-item"><img src="assets/icons/supabase.svg" alt="Supabase logo" width="28" height="28"><span>Supabase</span></div>
+            <div class="tool-item"><img src="assets/icons/swift.svg" alt="Swift logo" width="28" height="28"><span>SwiftUI</span></div>
+            <div class="tool-item"><img src="assets/icons/git.svg" alt="Git logo" width="28" height="28"><span>Git</span></div>
+            <div class="tool-item"><img src="assets/icons/vercel.svg" alt="Vercel logo" width="28" height="28"><span>Vercel</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
         <div class="site-container contact-grid">
           <div>
-            <p class="eyebrow"><span></span> Get in touch</p>
-            <h2>Have a useful idea?<br><em>Let’s build it well.</em></h2>
+            <p class="eyebrow eyebrow-light">Contact</p>
+            <h2>Let’s build something useful.</h2>
           </div>
-
-          <div class="contact-content">
+          <div class="contact-copy">
             <p>
-              I’m open to developer opportunities, collaborative projects, and
-              conversations about building clear, practical digital experiences.
+              I’m available for frontend and full-stack roles where I can contribute,
+              learn quickly, and help a thoughtful team ship dependable work.
             </p>
-            <a class="contact-email" href="mailto:ejdemaluan@gmail.com">
-              ejdemaluan@gmail.com <span aria-hidden="true">↗</span>
-            </a>
-            <nav class="social-links" aria-label="Social profiles">
-              <a href="https://github.com/ernzonfire" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
-              <a href="https://www.linkedin.com/in/ernie-demaluan-b98673191/" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
-            </nav>
+            <a class="button button-light" href="mailto:ejdemaluan@gmail.com">ejdemaluan@gmail.com</a>
+            <div class="social-links">
+              <a href="https://github.com/ernzonfire" target="_blank" rel="noopener">GitHub ↗</a>
+              <a href="https://www.linkedin.com/in/ernie-demaluan-b98673191/" target="_blank" rel="noopener">LinkedIn ↗</a>
+              <a href="assets/resume/ErnieDemaluan_FullStackDeveloper_2026.pdf" download>Download résumé ↓</a>
+            </div>
           </div>
         </div>
       </section>
@@ -453,11 +367,9 @@
 
     <footer class="site-footer">
       <div class="site-container footer-content">
-        <a class="brand" href="#home" aria-label="Back to the top">
-          <img src="logo.svg" alt="" width="32" height="32">
-          <span>Ernie Jr Demaluan</span>
-        </a>
-        <p>Designed &amp; built with care · 2026</p>
+        <p>© 2026 Ernie Demaluan Jr.</p>
+        <p>Full-stack developer · Cebu, Philippines</p>
+        <a href="#home">Back to top ↑</a>
       </div>
     </footer>
   </body>
