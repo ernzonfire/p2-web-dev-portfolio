@@ -297,35 +297,36 @@ main section[id] {
   font-size: 0.68rem;
 }
 
-.hero-product {
+.hero-visual {
   overflow: hidden;
-  color: #f3f5f4;
-  background: #082e2a;
-  border: 1px solid #174b44;
+  color: #e9f0ed;
+  background: #0a302b;
+  border: 1px solid #1f5049;
 }
 
-.hero-product-top,
-.hero-product-bottom {
+.hero-visual-heading {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  padding: 16px 18px;
-}
-
-.hero-product-top {
-  color: #c4ddd8;
-  border-bottom: 1px solid #24544e;
-  font-size: 0.68rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
+  min-height: 54px;
+  padding: 13px 18px;
+  border-bottom: 1px solid #2c5b54;
+  font-size: 0.66rem;
+  font-weight: 800;
+  letter-spacing: 0.055em;
   text-transform: uppercase;
 }
 
-.hero-product-top > div {
+.hero-visual-heading > div {
   display: flex;
   gap: 8px;
   align-items: center;
+}
+
+.hero-visual-heading a {
+  padding-bottom: 2px;
+  border-bottom: 1px solid #779c94;
 }
 
 .live-dot {
@@ -335,44 +336,65 @@ main section[id] {
   border-radius: 50%;
 }
 
-.hero-product-screen {
-  display: grid;
+.hero-device-stage {
+  position: relative;
   overflow: hidden;
-  height: clamp(380px, 42vw, 525px);
-  place-items: start center;
-  background: #041d1a;
+  height: clamp(500px, 47vw, 610px);
+  background: #061f1c;
 }
 
-.hero-product-screen img {
-  width: 57%;
-  min-width: 245px;
-  object-fit: cover;
-  object-position: top center;
+.phone-mockup {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 8px;
+  background: #090b0b;
+  border: 1px solid #505755;
+  border-radius: 38px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.28);
+}
+
+.phone-mockup > img {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.device-island {
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  z-index: 2;
+  width: 28%;
+  height: 18px;
+  background: #000;
+  border: 1px solid #151717;
+  border-radius: 999px;
+  transform: translateX(-50%);
+}
+
+.hero-phone {
+  position: absolute;
   transition: transform 220ms ease;
 }
 
-.hero-product:hover .hero-product-screen img,
-.hero-product:focus-visible .hero-product-screen img {
-  transform: translateY(-6px);
+.hero-phone-back {
+  top: 68px;
+  left: 7%;
+  width: 42%;
+  opacity: 0.9;
 }
 
-.hero-product-bottom {
-  border-top: 1px solid #24544e;
+.hero-phone-front {
+  right: 7%;
+  bottom: -62px;
+  z-index: 1;
+  width: 49%;
 }
 
-.hero-product-bottom div {
-  display: grid;
-  gap: 2px;
-}
-
-.hero-product-bottom strong {
-  font-family: "Manrope", sans-serif;
-  font-size: 1rem;
-}
-
-.hero-product-bottom span {
-  color: #9ebcb6;
-  font-size: 0.65rem;
+.hero-phone:hover,
+.hero-phone:focus-visible {
+  transform: translateY(-7px);
 }
 
 .proof-bar {
@@ -543,19 +565,51 @@ main section[id] {
   font-weight: 700;
 }
 
-.product-image {
-  display: grid;
+.device-gallery {
+  position: relative;
   overflow: hidden;
-  place-items: center;
+  min-height: 660px;
 }
 
-.product-image img {
-  transition: transform 260ms ease;
+.gallery-note {
+  position: absolute;
+  top: 25px;
+  left: 28px;
+  z-index: 3;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.61rem;
+  font-weight: 800;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
 }
 
-a.product-image:hover img,
-a.product-image:focus-visible img {
-  transform: scale(1.015);
+.gallery-phone {
+  position: absolute;
+  width: 45%;
+  max-width: 286px;
+  transition: transform 240ms ease;
+}
+
+.gallery-phone-back {
+  top: 86px;
+  left: 8%;
+  opacity: 0.9;
+}
+
+.gallery-phone-front {
+  right: 7%;
+  bottom: -58px;
+  z-index: 1;
+}
+
+a.device-gallery:hover .gallery-phone-back,
+a.device-gallery:focus-visible .gallery-phone-back {
+  transform: translateY(-6px);
+}
+
+a.device-gallery:hover .gallery-phone-front,
+a.device-gallery:focus-visible .gallery-phone-front {
+  transform: translateY(-10px);
 }
 
 .product-ern {
@@ -580,15 +634,8 @@ a.product-image:focus-visible img {
   color: #a8c2bc;
 }
 
-.ern-image {
+.gallery-ern {
   background: #041d1a;
-}
-
-.ern-image img {
-  width: 52%;
-  height: 104%;
-  object-fit: cover;
-  object-position: top center;
 }
 
 .product-next {
@@ -613,16 +660,12 @@ a.product-image:focus-visible img {
   color: #566a84;
 }
 
-.next-image {
+.gallery-next {
   background: #d6e0ec;
 }
 
-.next-image img {
-  width: 48%;
-  height: 92%;
-  object-fit: cover;
-  object-position: top center;
-  border: 1px solid #b7c3d1;
+.gallery-next .gallery-note {
+  color: #3d5879;
 }
 
 .product-salpakan {
@@ -651,15 +694,8 @@ a.product-image:focus-visible img {
   color: #aab2b1;
 }
 
-.salpakan-image {
+.gallery-salpakan {
   background: #071416;
-}
-
-.salpakan-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center 15%;
 }
 
 .more-work {
@@ -992,8 +1028,8 @@ a.product-image:focus-visible img {
     gap: 44px;
   }
 
-  .hero-product-screen {
-    height: 460px;
+  .hero-device-stage {
+    height: 520px;
   }
 
   .product-panel,
@@ -1001,7 +1037,7 @@ a.product-image:focus-visible img {
     grid-template-columns: 1fr;
   }
 
-  .product-next .product-image {
+  .product-next .device-gallery {
     order: 2;
   }
 
@@ -1009,8 +1045,8 @@ a.product-image:focus-visible img {
     min-height: auto;
   }
 
-  .product-image {
-    min-height: 600px;
+  .device-gallery {
+    min-height: 620px;
   }
 
   .work-row {
@@ -1056,7 +1092,7 @@ a.product-image:focus-visible img {
     font-size: clamp(3rem, 14vw, 4.6rem);
   }
 
-  .hero-product {
+  .hero-visual {
     width: min(100%, 520px);
     justify-self: center;
   }
@@ -1067,8 +1103,8 @@ a.product-image:focus-visible img {
     gap: 18px;
   }
 
-  .product-image {
-    min-height: 520px;
+  .device-gallery {
+    min-height: 570px;
   }
 
   .more-work-heading {
@@ -1154,8 +1190,8 @@ a.product-image:focus-visible img {
     margin-top: 0;
   }
 
-  .hero-product-screen {
-    height: 420px;
+  .hero-device-stage {
+    height: 485px;
   }
 
   .product-content {
@@ -1171,13 +1207,30 @@ a.product-image:focus-visible img {
     border-left: 0;
   }
 
-  .product-image {
-    min-height: 420px;
+  .device-gallery {
+    min-height: 500px;
   }
 
-  .ern-image img,
-  .next-image img {
-    width: 60%;
+  .hero-phone-back {
+    left: -3%;
+    width: 50%;
+  }
+
+  .hero-phone-front {
+    right: 1%;
+    width: 57%;
+  }
+
+  .gallery-phone {
+    width: 56%;
+  }
+
+  .gallery-phone-back {
+    left: -7%;
+  }
+
+  .gallery-phone-front {
+    right: -4%;
   }
 
   .work-row {
