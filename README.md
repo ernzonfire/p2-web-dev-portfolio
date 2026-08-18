@@ -1,4 +1,4 @@
-# Ernie Jr Demaluan — Web Development Portfolio
+# Ernie Demaluan Jr. — Web Development Portfolio
 
 A responsive, accessible portfolio presenting my web development skills, completed projects, résumé, and contact details. This is the refined submission for Uplift Code Camp Project 7.
 
@@ -7,8 +7,9 @@ A responsive, accessible portfolio presenting my web development skills, complet
 - Clear personal introduction and full contact details
 - Downloadable, up-to-date résumé
 - Technology stack with accessible logo text
-- Five completed projects with live and source links
-- PayNear P6 preview clearly marked as in development
+- Five completed course projects from P2 through P6, each with live and source links
+- PayNear P6 presented as a completed, deployed full-stack application
+- ERN Finance linked to its official App Store and Google Play listings
 - Responsive layouts for mobile, tablet, and desktop
 - Keyboard-friendly navigation, visible focus states, and reduced-motion support
 
@@ -20,7 +21,7 @@ A responsive, accessible portfolio presenting my web development skills, complet
 
 - Semantic HTML5
 - Modern CSS with Grid, Flexbox, and custom properties
-- Google Fonts: Space Grotesk and Inter
+- Google Fonts: Manrope and Inter
 - Vercel for deployment
 
 ## Run locally
@@ -33,4 +34,4 @@ python3 -m http.server 4173
 
 ## Project status
 
-The portfolio is complete. PayNear remains intentionally marked as an upcoming P6 project until the team application is ready for its full case study.
+The portfolio refinement is complete and the featured course projects are publicly deployed. ERN Finance is also available on iOS and Android; its commercial source repository remains private.
