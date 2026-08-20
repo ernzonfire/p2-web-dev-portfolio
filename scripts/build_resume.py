@@ -4,33 +4,26 @@
 from pathlib import Path
 
 from reportlab.lib import colors
-from reportlab.lib.enums import TA_LEFT, TA_RIGHT
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import inch
-from reportlab.pdfbase.pdfmetrics import stringWidth
 from reportlab.platypus import (
     KeepTogether,
     Paragraph,
     SimpleDocTemplate,
     Spacer,
-    Table,
-    TableStyle,
 )
 
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "assets" / "resume" / "ErnieDemaluan_FullStackDeveloper_2026.pdf"
 
-INK = colors.HexColor("#172033")
-MUTED = colors.HexColor("#4B5563")
-ACCENT = colors.HexColor("#0F766E")
-LINE = colors.HexColor("#D7DEE7")
-PAPER = colors.white
+INK = colors.HexColor("#111111")
+MUTED = colors.HexColor("#333333")
 
 
 def link(label: str, url: str) -> str:
-    return f'<link href="{url}" color="#0F766E"><u>{label}</u></link>'
+    return f'<link href="{url}" color="#111111"><u>{label}</u></link>'
 
 
 def build_styles():
@@ -40,19 +33,19 @@ def build_styles():
             "Name",
             parent=sample["Normal"],
             fontName="Helvetica-Bold",
-            fontSize=24,
-            leading=26,
+            fontSize=21,
+            leading=23,
             textColor=INK,
-            spaceAfter=2,
+            spaceAfter=3,
         ),
         "role": ParagraphStyle(
             "Role",
             parent=sample["Normal"],
             fontName="Helvetica-Bold",
-            fontSize=10.5,
-            leading=13,
-            textColor=ACCENT,
-            spaceAfter=3,
+            fontSize=10,
+            leading=12,
+            textColor=INK,
+            spaceAfter=4,
         ),
         "contact": ParagraphStyle(
             "Contact",
@@ -68,9 +61,9 @@ def build_styles():
             fontName="Helvetica-Bold",
             fontSize=9.6,
             leading=11.5,
-            textColor=ACCENT,
+            textColor=INK,
             spaceBefore=9,
-            spaceAfter=4.5,
+            spaceAfter=3.5,
             uppercase=True,
         ),
         "body": ParagraphStyle(
@@ -112,33 +105,11 @@ def build_styles():
             textColor=INK,
             spaceAfter=1.6,
         ),
-        "footer": ParagraphStyle(
-            "Footer",
-            parent=sample["Normal"],
-            fontName="Helvetica",
-            fontSize=6.8,
-            leading=8,
-            textColor=MUTED,
-            alignment=TA_RIGHT,
-        ),
     }
 
 
 def section_heading(text: str, styles):
-    title = Paragraph(text.upper(), styles["section"])
-    rule = Table([[title]], colWidths=[A4[0] - 0.96 * inch])
-    rule.setStyle(
-        TableStyle(
-            [
-                ("LEFTPADDING", (0, 0), (-1, -1), 0),
-                ("RIGHTPADDING", (0, 0), (-1, -1), 0),
-                ("TOPPADDING", (0, 0), (-1, -1), 0),
-                ("BOTTOMPADDING", (0, 0), (-1, -1), 2),
-                ("LINEBELOW", (0, 0), (-1, -1), 0.55, LINE),
-            ]
-        )
-    )
-    return rule
+    return Paragraph(text.upper(), styles["section"])
 
 
 def project_block(title: str, details: list[str], styles):
@@ -152,21 +123,6 @@ def draw_page(canvas, doc):
     canvas.setTitle("Ernie Demaluan Jr. - Full-Stack Developer Resume")
     canvas.setAuthor("Ernie Demaluan Jr.")
     canvas.setSubject("Full-stack developer resume and selected project experience")
-    canvas.setFillColor(ACCENT)
-    canvas.rect(doc.leftMargin, A4[1] - 0.26 * inch, doc.width, 0.055 * inch, fill=1, stroke=0)
-    canvas.setStrokeColor(LINE)
-    canvas.setLineWidth(0.5)
-    canvas.line(doc.leftMargin, 0.34 * inch, A4[0] - doc.rightMargin, 0.34 * inch)
-    canvas.setFont("Helvetica", 6.7)
-    canvas.setFillColor(MUTED)
-    footer = "Ernie Demaluan Jr. | Full-Stack Developer | 2026"
-    canvas.drawString(doc.leftMargin, 0.22 * inch, footer)
-    page_label = f"Page {doc.page}"
-    canvas.drawString(
-        A4[0] - doc.rightMargin - stringWidth(page_label, "Helvetica", 6.7),
-        0.22 * inch,
-        page_label,
-    )
     canvas.restoreState()
 
 
@@ -178,8 +134,8 @@ def build_resume():
         pagesize=A4,
         leftMargin=0.48 * inch,
         rightMargin=0.48 * inch,
-        topMargin=0.38 * inch,
-        bottomMargin=0.45 * inch,
+        topMargin=0.52 * inch,
+        bottomMargin=0.52 * inch,
         title="Ernie Demaluan Jr. - Full-Stack Developer Resume",
         author="Ernie Demaluan Jr.",
     )
