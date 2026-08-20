@@ -147,7 +147,7 @@ def build_resume():
             "ejdemaluan@gmail.com &nbsp;|&nbsp; "
             + link("Portfolio", "https://p2-web-dev-portfolio.vercel.app/")
             + " &nbsp;|&nbsp; "
-            + link("GitHub", "https://github.com/ernzonfire")
+            + link("GitLab", "https://gitlab.com/ejdemaluan")
             + " &nbsp;|&nbsp; "
             + link("LinkedIn", "https://www.linkedin.com/in/ernie-demaluan-b98673191/"),
             styles["contact"],
@@ -155,9 +155,9 @@ def build_resume():
         Spacer(1, 3),
         section_heading("Professional Summary", styles),
         Paragraph(
-            "Full-stack developer building responsive web applications and production mobile products. "
-            "Experienced across React, Node.js, Express, MongoDB, Supabase, SwiftUI, Kotlin, REST APIs, "
-            "authentication, deployment, and local-first data. Brings a creative production background and "
+            "Full-stack developer building responsive web applications and practical digital products. "
+            "Experienced across React, Node.js, Express, MongoDB, Kotlin, REST APIs, authentication, and deployment. "
+            "Brings a creative production background and "
             "a strong focus on usability, execution, and clear problem-solving.",
             styles["body"],
         ),
@@ -168,32 +168,20 @@ def build_resume():
             styles["small"],
         ),
         Paragraph(
-            "<b>Data:</b> MongoDB, Mongoose, Supabase, IndexedDB, local-first storage &nbsp;&nbsp; "
-            "<b>Mobile:</b> SwiftUI, Kotlin, Jetpack Compose, Capacitor",
+            "<b>Data:</b> MongoDB, Mongoose, IndexedDB, local-first storage &nbsp;&nbsp; "
+            "<b>Mobile:</b> Kotlin, Jetpack Compose, Capacitor",
             styles["small"],
         ),
         Paragraph(
-            "<b>Workflow:</b> Git, GitHub, Postman, Vercel, Render, testing, debugging, accessibility",
+            "<b>Workflow:</b> Git, GitLab, Postman, Vercel, Render, testing, debugging, accessibility",
             styles["small"],
         ),
         section_heading("Selected Projects", styles),
         project_block(
-            "ERN FINANCE | INDEPENDENT PRODUCT | SWIFTUI, KOTLIN, REACT | "
-            + link("App Store", "https://apps.apple.com/ph/app/ern-finance/id6789468096")
-            + " | "
-            + link("Google Play", "https://play.google.com/store/apps/details?id=com.ern.finance"),
-            [
-                "Designed and shipped a privacy-first finance product across native iOS, native Android, and React/PWA surfaces.",
-                "Built local-first tracking for accounts, expenses, budgets, card dues, goals, and safe-to-spend planning.",
-                "Released on the App Store and Google Play with public listings and cross-platform release workflows.",
-            ],
-            styles,
-        ),
-        project_block(
             "PAYNEAR (P6) | MERN GROUP PROJECT | "
             + link("Live", "https://paynear.vercel.app/")
             + " | "
-            + link("Code", "https://github.com/ernzonfire/paynear-p6"),
+            + link("Code", "https://gitlab.com/uplift-code-camp/students/batch-29/p6-group-2-the-last-room/paynear"),
             [
                 "Collaborated in a four-person team on a map-first platform for finding nearby establishments by accepted payment method.",
                 "The product includes role-based accounts, owner submissions, admin verification, reviews, Socket.IO chat, notifications, and AI-assisted filters.",
@@ -204,7 +192,7 @@ def build_resume():
             "KUSINAMATE (P5) | REACT, NODE.JS, EXPRESS, MONGODB | "
             + link("Live", "https://kusina-mate-p5.vercel.app/")
             + " | "
-            + link("Code", "https://github.com/ernzonfire/kusina-mate-p5"),
+            + link("Code", "https://gitlab.com/uplift-code-camp/students/batch-29/ernie-demaluan-jr/projects/-/tree/p5-backend-node-app"),
             [
                 "Extended a React meal planner with a REST API, JWT accounts, recipe CRUD, and persistent user data.",
                 "Implemented favorites, weekly meal plans, grocery aggregation, filtering, analytics, and production deployment.",
@@ -214,20 +202,21 @@ def build_resume():
         project_block(
             "ADDITIONAL SHIPPED WORK",
             [
-                link("KusinaMate React (P4)", "https://kusina-mate.vercel.app/")
+                "KusinaMate React (P4) | "
+                + link("Live", "https://kusina-mate.vercel.app/")
+                + " | "
+                + link("Code", "https://gitlab.com/uplift-code-camp/students/batch-29/ernie-demaluan-jr/projects/-/tree/p4-react-app")
                 + " - Responsive client-side meal planner with search, budget filters, favorites, and weekly planning.",
-                link("ExplainIt AI (P3)", "https://explainit-ai-app.vercel.app/")
+                "ExplainIt AI (P3) | "
+                + link("Live", "https://explainit-ai-app.vercel.app/")
+                + " | "
+                + link("Code", "https://gitlab.com/uplift-code-camp/students/batch-29/ernie-demaluan-jr/projects/-/tree/p3-js-api-app")
                 + " - JavaScript and REST API learning tool with structured, beginner-friendly explanations.",
-                link("Personal Portfolio (P2)", "https://p2-web-dev-portfolio.vercel.app/")
+                "Personal Portfolio (P2) | "
+                + link("Live", "https://p2-web-dev-portfolio.vercel.app/")
+                + " | "
+                + link("Code", "https://gitlab.com/uplift-code-camp/students/batch-29/ernie-demaluan-jr/projects/-/tree/p2-web-dev-portfolio/p2-web-dev-portfolio")
                 + " - Responsive, accessible portfolio with documented project and contact links.",
-            ],
-            styles,
-        ),
-        project_block(
-            "NEXT INTERNAL PLATFORM | NEXT.JS, SUPABASE, VERCEL | ONGOING",
-            [
-                "Built an employee engagement platform with authentication, events, QR attendance validation, points, rewards, and admin workflows.",
-                "Structured multi-user product flows and real-time validation for scalable internal operations.",
             ],
             styles,
         ),
