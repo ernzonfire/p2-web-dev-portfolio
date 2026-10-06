@@ -1,0 +1,287 @@
+{
+  "verified_on": "2026-10-05",
+  "base_commit": "dcc12ddef9ca8d121e77e9ed94c4aa924effd73d",
+  "repository": "https://github.com/ernzonfire/p2-web-dev-portfolio",
+  "existing_site": "https://p2-web-dev-portfolio.vercel.app/",
+  "video_projects": [
+    {
+      "url": "https://youtu.be/t2UfAnDebfo",
+      "verified_title": "NEXTLOGIC | Peplink x Starlink - Promotional Video",
+      "metadata_source": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=t2UfAnDebfo&format=json",
+      "thumbnail": "assets/video/t2UfAnDebfo.jpg",
+      "personal_role": "Not asserted; confirmation optional"
+    },
+    {
+      "url": "https://youtu.be/yOVhuCKtams",
+      "verified_title": "Fun Run - Same Day Edit Video",
+      "metadata_source": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=yOVhuCKtams&format=json",
+      "thumbnail": "assets/video/yOVhuCKtams.jpg",
+      "personal_role": "Not asserted; confirmation optional"
+    },
+    {
+      "url": "https://youtu.be/y9YaJLOLpq8",
+      "verified_title": "Clent & Queen Wedding | Same Day Edit",
+      "metadata_source": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=y9YaJLOLpq8&format=json",
+      "thumbnail": "assets/video/y9YaJLOLpq8.jpg",
+      "personal_role": "Not asserted; confirmation optional"
+    },
+    {
+      "url": "https://youtu.be/ZAl17OtuZ2I",
+      "verified_title": "Rey & Krezel's Wedding | Same Day Edit",
+      "metadata_source": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=ZAl17OtuZ2I&format=json",
+      "thumbnail": "assets/video/ZAl17OtuZ2I.jpg",
+      "personal_role": "Not asserted; confirmation optional"
+    },
+    {
+      "url": "https://youtu.be/lpftOO7GkgQ",
+      "verified_title": "Jed Bryle & Janet's Wedding | Same Day Edit",
+      "metadata_source": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=lpftOO7GkgQ&format=json",
+      "thumbnail": "assets/video/lpftOO7GkgQ.jpg",
+      "personal_role": "Not asserted; confirmation optional"
+    },
+    {
+      "url": "https://youtu.be/rGNWl_Wt4Aw",
+      "verified_title": "Jubbie & Paul Wedding Video Highlights",
+      "metadata_source": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=rGNWl_Wt4Aw&format=json",
+      "thumbnail": "assets/video/rGNWl_Wt4Aw.jpg",
+      "personal_role": "Not asserted; confirmation optional"
+    },
+    {
+      "url": "https://youtu.be/HJYRQWEnPnE",
+      "verified_title": "Christian & Angela Wedding SDE",
+      "metadata_source": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=HJYRQWEnPnE&format=json",
+      "thumbnail": "assets/video/HJYRQWEnPnE.jpg",
+      "personal_role": "Not asserted; confirmation optional"
+    },
+    {
+      "url": "https://youtu.be/JMZIBYHA0cI",
+      "verified_title": "Sportsfest Opening Ceremony & Family Day | Same Day Edit",
+      "metadata_source": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=JMZIBYHA0cI&format=json",
+      "thumbnail": "assets/video/JMZIBYHA0cI.jpg",
+      "personal_role": "Not asserted; confirmation optional"
+    },
+    {
+      "url": "https://youtu.be/N5bW5uU-H2Q",
+      "verified_title": "REIGNITE 2026 2",
+      "metadata_source": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=N5bW5uU-H2Q&format=json",
+      "thumbnail": "assets/video/N5bW5uU-H2Q.jpg",
+      "personal_role": "Not asserted; confirmation optional"
+    },
+    {
+      "url": "https://www.facebook.com/reel/720536883946019",
+      "display_title": "Mövenpick Cebu · Accor Choir Games",
+      "year": 2025,
+      "verification": "Public Facebook page metadata",
+      "credit": "Direction, videography and editing: Ernie Demaluan Jr., with a shooting team. User-confirmed.",
+      "thumbnail": "assets/video/accor-choir.jpg",
+      "team_result": "Mövenpick Cebu team entry placed third at the 2025 Accor Choir Games; this is a team achievement, not an individual award.",
+      "official_result_source": "https://www.linkedin.com/posts/movenpickcebu_heartists-heartist-accor-activity-7400773684464119808-E1gj"
+    }
+  ],
+  "graphics": [
+    {
+      "title": "Big Boys · Camiguin",
+      "source_page": "https://sites.google.com/view/erniedemaluanjr/projects/graphic-designs",
+      "original_image_url": "https://sites.google.com/sitesv-images-rt/AMxu72t3jd0TYcrNb-C5OyZU7pH-qT_p6kBLCZ9c0KippxyH-EdfXOms-JTeMSa4Wv0LP60Er0VOSyVWXp6eQ_q1V8Qfigf3eS98StqKLriGsIi8zCa_v7C7RFlGU8RD9bDdebuYBvbcUKUVgo_W2Xc7kNtSqKv0Xu6BgiTgFxt7IP6rOOr5RI0CG4cyvteNgVFIlTOxNsJ79JIg6DSAWKOf61hTt-DXjvcZI3FwJ9P9Eas=w1280",
+      "local_asset": "assets/graphics/archive-2.png",
+      "note": "Selected public archive graphic. Original composition and embedded credits retained. PNG content served with correct extension."
+    },
+    {
+      "title": "DNTMND",
+      "source_page": "https://sites.google.com/view/erniedemaluanjr/projects/graphic-designs",
+      "original_image_url": "https://sites.google.com/sitesv-images-rt/AMxu72s9dUDPi1SZY3RyE8mpy4xBBtFDIWCkjy066DGgrX27Iu-9x99QoFnBsb-LPvtAlZPJpMXYqsUlbX4iUMU_vortjQWtCkUPlQgKJXe1lbat145qm2rkzZRikd5jPzGxB73CizHy-zGsnHg_XxsuDG5pZd0huD8M1CotLSwcK1iOT92NN-pfDLksLMUi=w1280",
+      "local_asset": "assets/graphics/archive-3.png",
+      "note": "Selected public archive graphic. Original composition and embedded credits retained. PNG content served with correct extension."
+    },
+    {
+      "title": "The Confluents",
+      "source_page": "https://sites.google.com/view/erniedemaluanjr/projects/graphic-designs",
+      "original_image_url": "https://sites.google.com/sitesv-images-rt/AMxu72vhwk0kCG5_5QbeuGxQLZys30hxk-N-p5TAHHmRckf6G2Ld3xrMVoicBk57eaquMazgBxZnT68S0h-FlvcwrdfF8Wk8qN13pHiXNAWmQRJQrtyIytiwrUfGiedRD5BIOrT7J4QK714ueXQI6Pw_XozO_uKtNBQXF0HLpI4WwOIxQckgMQgkkHR9Ai0UckI=w1280",
+      "local_asset": "assets/graphics/archive-7.png",
+      "note": "Selected public archive graphic. Original composition and embedded credits retained. PNG content served with correct extension."
+    },
+    {
+      "title": "REIGNITE 2025",
+      "library_file_id": "libfile_0b45b60f22dc819196288832604eafad",
+      "current_version_number": 0,
+      "original_file_name": "487553111_122125462694750537_5002700865723857530_n.jpg",
+      "local_asset": "assets/graphics/reignite-2025.jpg",
+      "sha256": "665d2c99675809a6ca4d48488c119f69909d620cf4ee99c07eea6b171f91972d",
+      "source": "User-attached graphic; titles visually verified; original bytes and visible brand marks preserved."
+    },
+    {
+      "title": "Trick or Treat",
+      "library_file_id": "libfile_339fcd3a8adc8191b5391658ce03b000",
+      "current_version_number": 0,
+      "original_file_name": "566235061_122162546150750537_3660059452533012271_n.jpg",
+      "local_asset": "assets/graphics/trick-or-treat.jpg",
+      "sha256": "4c3e51eecbbf9648b25fe4ba06775929cd7900ef9e0141cb9fe3b694222fa994",
+      "source": "User-attached graphic; titles visually verified; original bytes and visible brand marks preserved."
+    },
+    {
+      "title": "REIGNITE 2026",
+      "library_file_id": "libfile_45cd068541f481919118a26c8caa0779",
+      "current_version_number": 0,
+      "original_file_name": "600237394_122171595770750537_2772204947763004714_n.jpg",
+      "local_asset": "assets/graphics/reignite-2026.jpg",
+      "sha256": "b7fdad8b32fb9d8fba6b0b96113105d157b12a40c70b302b00d21fa7f57cdf00",
+      "source": "User-attached graphic; titles visually verified; original bytes and visible brand marks preserved."
+    },
+    {
+      "title": "Phantom Division · Green Wolves",
+      "label": "REIGNITE 2025 · Mobile Legends champions",
+      "library_file_id": "libfile_c0d065f2882081918b3546e7206baaba",
+      "current_version_number": 0,
+      "original_file_name": "505407488_122139627596750537_6970903614872212829_n.jpg",
+      "local_asset": "assets/graphics/phantom-division-reignite-2025.jpg",
+      "sha256": "c1c62d16b24225088c01c9c1c63bfb50eb698724c1dab87a7f156e0b0302c47c",
+      "source": "User-supplied original. Actual artwork visually verified. Original bytes, composition and embedded team credits preserved."
+    },
+    {
+      "title": "White Lions",
+      "label": "REIGNITE 2025 · Dota champions",
+      "library_file_id": "libfile_f6becf550c4c819196c4cdb0fc54013c",
+      "current_version_number": 0,
+      "original_file_name": "505456521_122139434720750537_4951020815150851866_n.jpg",
+      "local_asset": "assets/graphics/white-lions-reignite-2025.jpg",
+      "sha256": "dc761904873fe660ab35a82f39f05b1f4cc87f56bd632916fc38b7f2705d8827",
+      "source": "User-supplied original. Actual artwork visually verified. Original bytes, composition and embedded team credits preserved."
+    },
+    {
+      "title": "Mythbreak Order · Green Wolves",
+      "label": "REIGNITE 2026 · Team roster",
+      "library_file_id": "libfile_5d83765b6d8c8191a69628097da79ec7",
+      "current_version_number": 0,
+      "original_file_name": "648991271_122184660098750537_4343198079312693795_n.jpg",
+      "local_asset": "assets/graphics/mythbreak-order-reignite-2026.jpg",
+      "sha256": "de039f05431c8aa8c20f11104791fa05323679489420b7dccb1ace073d8aae61",
+      "source": "User-supplied original. Actual artwork visually verified. Original bytes, composition and embedded team credits preserved."
+    }
+  ],
+  "apps": [
+    {
+      "name": "ERN Finance",
+      "seller": "Ernie Demaluan Jr.",
+      "apple_url": "https://apps.apple.com/ph/app/ern-finance/id6789468096",
+      "android_url": "https://play.google.com/store/apps/details?id=com.ern.finance",
+      "store_screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2b/a1/dc/2ba1dcea-b6d2-248d-1768-054a7a69b8d0/1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/92/7a/44/927a44a5-4758-371b-0fe7-91d0eb58e7d8/2.png/320x480bb.jpg"
+      ],
+      "verified": "Both store pages returned HTTP 200 and matching app/developer names.",
+      "access_note": null
+    },
+    {
+      "name": "NEXT - Internal Hub",
+      "seller": "Ernie Demaluan Jr.",
+      "apple_url": "https://apps.apple.com/ph/app/next-internal-hub/id6771671682",
+      "android_url": "https://play.google.com/store/apps/details?id=com.nextinternalhub.app",
+      "store_screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5f/4e/97/5f4e97b8-afa2-358f-cab3-03dc42567185/01-home.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/39/fb/ee/39fbeea5-a9e7-d9d9-5c33-3cc44f53aa2a/02-updates.png/320x480bb.jpg"
+      ],
+      "verified": "Both store pages returned HTTP 200 and matching app/developer names.",
+      "access_note": "For authorized NEXT team members"
+    }
+  ],
+  "optional_credits": [
+    "Exact per-film roles for the YouTube projects",
+    "Mövenpick shooting-team names"
+  ],
+  "brands": [
+    {
+      "name": "But First, Coffee — Ayala Malls Central Bloc, Cebu",
+      "relationship": "User-confirmed brand collaboration, specific branch only",
+      "library_file_id": "libfile_a109346b06f8819180bc4d13388ab3bf",
+      "current_version_number": 0,
+      "original_file_name": "FULL LOGO - WHITE.png",
+      "local_asset": "assets/brands/but-first-coffee-central-bloc.png",
+      "verification": "Actual supplied pixels inspected on dark background; branch identity appears in asset. Official butfirstcoffee.ph confirms brand identity."
+    },
+    {
+      "name": "ResultsCX",
+      "relationship": "User-confirmed brand collaboration",
+      "library_file_id": "libfile_2dacb486e6208191a2970aeb48b173ee",
+      "current_version_number": 0,
+      "original_file_name": "ResultsCX white logo.png",
+      "local_asset": "assets/brands/resultscx-white.png",
+      "verification": "Actual supplied transparent white logo inspected on dark background."
+    },
+    {
+      "name": "Nextlogic",
+      "relationship": "User-confirmed brand collaboration",
+      "library_file_id": "libfile_1a872c85261c81919fb3c9f7b780ad0e",
+      "current_version_number": 0,
+      "original_file_name": "nextlogic-website-logo.png",
+      "local_asset": "assets/brands/nextlogic.png",
+      "official_source": "https://nextlogic.ph/wp-content/uploads/2020/08/nextlogic-website-logo.png",
+      "rendering": "User explicitly requested white. CSS brightness(0) invert(1) applies only to this image; original PNG preserved, including transparency and proportions."
+    },
+    {
+      "name": "Mövenpick Hotel Mactan Island Cebu",
+      "relationship": "User-confirmed brand collaboration",
+      "local_asset": "assets/brands/movenpick.svg",
+      "official_source": "https://movenpick.accor.com/content/dam/movenpick/header/HeaderLogo280X96.svg",
+      "source_page": "https://movenpick.accor.com/",
+      "rendering": "Original gold hotel brand artwork preserved; no CSS white filter."
+    },
+    {
+      "name": "DNTMND",
+      "relationship": "User-confirmed brand collaboration",
+      "local_asset": "assets/brands/dntmnd.jpg",
+      "source_page": "https://www.facebook.com/dntmndph/",
+      "verification": "Public brand page metadata titled DNTMND | Mandaue City. Original page image inspected: DNTMND / DON’T MIND / EST.2020 wordmark. No font-based recreation. CSS screen blend removes black photo background visually without changing bytes."
+    }
+  ],
+  "updated_on": "2026-10-06",
+  "editing_collaborations": [
+    {
+      "studio": "PrincessA Studios",
+      "role": "Same-Day Editor",
+      "source": "User-confirmed credit; not assigned to a specific gallery film without confirmation."
+    },
+    {
+      "studio": "Art Republik",
+      "role": "Same-Day Editor",
+      "source": "User-confirmed credit; not assigned to a specific gallery film without confirmation."
+    },
+    {
+      "studio": "Russel Cosido Film",
+      "role": "Same-Day Editor",
+      "source": "User-confirmed credit; not assigned to a specific gallery film without confirmation."
+    },
+    {
+      "studio": "Worthwhile Studios",
+      "role": "Same-Day Editor",
+      "source": "User-confirmed credit; not assigned to a specific gallery film without confirmation."
+    },
+    {
+      "studio": "Lifetime Stories",
+      "role": "Same-Day Editor",
+      "source": "User-confirmed credit; not assigned to a specific gallery film without confirmation."
+    },
+    {
+      "studio": "Jubert Valmores Films",
+      "role": "Wedding Highlights Editor",
+      "source": "User-confirmed credit; not assigned to a specific gallery film without confirmation."
+    }
+  ],
+  "employment": [
+    {
+      "organization": "TaskUs",
+      "relationship": "Former full-time employment",
+      "role": "Engagement & Experience Team Leader",
+      "responsibilities": [
+        "Creative direction",
+        "Graphic design",
+        "Technical coordination of sound, lights, LED wall and live streaming"
+      ],
+      "dates": null,
+      "source": "User-confirmed. Separate from freelance client collaborations."
+    }
+  ],
+  "retained_reignite_asset": {
+    "asset": "assets/graphics/reignite-2026.jpg",
+    "reason": "Retained the existing full-quality original 2048×2048 source; optional cropped reference not needed."
+  }
+}
