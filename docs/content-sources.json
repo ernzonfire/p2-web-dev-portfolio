@@ -283,5 +283,11 @@
   "retained_reignite_asset": {
     "asset": "assets/graphics/reignite-2026.jpg",
     "reason": "Retained the existing full-quality original 2048×2048 source; optional cropped reference not needed."
+  },
+  "primary_site": "https://erniedemaluanjr.vercel.app/",
+  "preview_cleanup": {
+    "date": "2026-10-08",
+    "scope": "Primary canonical/Open Graph URLs and visitor-facing project descriptions. Confirmed credits and project assets retained.",
+    "credit_policy": "Confirmed Mövenpick direction/videography/editing, studio editing roles and TaskUs employment remain. Unconfirmed YouTube roles are not asserted."
   }
 }

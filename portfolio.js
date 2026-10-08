@@ -51,7 +51,7 @@ if (dialog && typeof dialog.showModal === 'function') {
       media.append(frame);
       source.href = link.href;
       source.textContent = 'Watch on YouTube ↗';
-      note.textContent = 'Selected film · Original upload and credits on YouTube.';
+      note.textContent = link.dataset.note || `${link.dataset.label} · ${link.dataset.title}.`;
     } else {
       const image = document.createElement('img');
       image.src = link.dataset.graphic;
@@ -59,7 +59,7 @@ if (dialog && typeof dialog.showModal === 'function') {
       media.append(image);
       source.href = link.dataset.sourceLabel ? link.href : 'https://sites.google.com/view/erniedemaluanjr/projects/graphic-designs';
       source.textContent = link.dataset.sourceLabel || 'View creative archive ↗';
-      note.textContent = link.dataset.note || 'Selected graphic from my public creative archive.';
+      note.textContent = link.dataset.note || `${link.dataset.label} · ${link.dataset.title}.`;
     }
     dialog.classList.toggle('graphic-dialog', !isVideo);
     document.body.classList.add('dialog-open');
